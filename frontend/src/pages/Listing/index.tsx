@@ -17,6 +17,7 @@ function Listing() {
      .then(response => {
         const data = response.data as MoviePage;
         console.log(data);
+        
         setPageNumber(data.number);
      });
 
